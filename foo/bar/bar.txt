@@ -1,1 +1,3 @@
 Hello bar
+Hello bar
+Hello Bar
