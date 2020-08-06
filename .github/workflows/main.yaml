@@ -19,7 +19,7 @@ jobs:
         with:
           args: >-
             pr
-            -o Octocat
+            -o TomKristie
             -r HelloWorld
             -d 'This pull request is adding a LICENSE file'
             -t 'chore(license): add license file'
