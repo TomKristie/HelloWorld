@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: (curl http://www.apache.org/licenses/LICENSE-2.0.txt) > LICENSE
-      - uses: TomKristie/test-action
+      - uses: TomKristie/test-action@master
         with:
           args: >-
             pr
