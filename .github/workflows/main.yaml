@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: googleapis/code-suggester@v1
       - run: (curl http://www.apache.org/licenses/LICENSE-2.0.txt) > LICENSE
-      - uses: googleapis/code-suggester@v1
+      - uses: TomKristie/test-action@v1
         with:
           args: >-
             pr
