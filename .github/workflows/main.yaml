@@ -14,7 +14,6 @@ jobs:
       ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
     steps:
       - uses: actions/checkout@v2
-      - uses: googleapis/code-suggester@v1
       - run: (curl http://www.apache.org/licenses/LICENSE-2.0.txt) > LICENSE
       - uses: TomKristie/test-action@v1
         with:
