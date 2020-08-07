@@ -21,4 +21,4 @@ jobs:
           title: "chore: regenerate common templates"
           message: "chore(test): some changes"
           branch: synthtool-templates
-          gitDir: "."
+          git_dir: "."
