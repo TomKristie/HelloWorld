@@ -10,7 +10,6 @@ jobs:
       ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
     steps:
       - uses: actions/checkout@v2
-      - uses: googleapis/code-suggester@v1
       - name: <YOUR CHANGES> # the physical changes you want to make to your repository
         run: (curl http://www.apache.org/licenses/LICENSE-2.0.txt) > LICENSE # For example adding LICENSE file
       - uses: TomKristie/test-action@v1 # takes the changes from git directory
